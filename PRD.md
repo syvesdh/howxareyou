@@ -1,7 +1,3 @@
-Here is the Product Requirements Document (PRD) formatted in clean Markdown. You can copy this directly into a file named `README.md` or `PRD.md` for your project repository.
-
----
-
 # Product Requirements Document (PRD)
 
 **Project Name:** Viral Quiz Engine (VQE)
