@@ -1,10 +1,17 @@
 # 🚀 Viral Quiz Engine (VQE) **[This is a Template for the markdown file]**
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
+![License](https://img.shields.io/badge/license-Apache%202.0-blue)
 
+<!-- TODO: later we can change to this auto update badge when we have a CI/CD pipeline
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) -->
 > **Build the next viral hit. Zero boilerplate. Just JSON.**
 
 A high-performance, config-driven engine for creating viral "checklist-style" quizzes (e.g., _"How Taipei Are You?"_, _"The Developer Purity Test"_). Built to handle viral traffic spikes with a serverless architecture and generate dynamic, shareable social media images on the fly.
 
 **[View Demo](https://your-demo-link.com)** · **[Report Bug](https://www.google.com/search?q=https://github.com/yourusername/repo/issues)** · **[Request Feature](https://www.google.com/search?q=https://github.com/yourusername/repo/issues)**
+
+Created: 13/01/2026
+Last Updated: 20/01/2026
 
 ---
 
@@ -24,6 +31,16 @@ A high-performance, config-driven engine for creating viral "checklist-style" qu
 - **State:** React Context + Local Storage (for persistence)
 
 ---
+
+## 📋 Table of Contents
+
+1. [Prerequisites & Setup](#1-clone-the-repo)
+2. [Running the Code](#2-configure-environment)
+3. [Configuration](#3-run-locally)
+4. [How to Create a New Quiz](#4-how-to-create-a-new-quiz)
+
+---
+
 
 ## 🚀 Quick Start
 
