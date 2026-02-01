@@ -1,0 +1,7 @@
+- [ ] dont display progress bar
+- [ ] calculate score button is stuck to the bottom of the page 
+- [ ] make a bar on the right side to display how far the user has scrolled
+- [ ] make the bar on the right side glow brighter the more user answers
+- [ ] the user can select a quiz in the hero page [Hero Page]
+- [ ] of we have more than 3 quizzes, display only 3 recommended quizzes and a "See More" button [Hero Page]
+- [ ] 
