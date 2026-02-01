@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "id": "taipei-og-test",
+    "title": "How Taipei Are You?",
+    "description": "The ultimate test for true locals. Check all that apply to you!",
+    "theme": {
+      "primary": "#3B82F6",
+      "background": "#0f172a"
+    }
+  },
+  "grading": {
+    "total_questions": 25,
+    "tiers": [
+      { "min": 0, "max": 5, "title": "Fresh Off The Plane ✈️" },
+      { "min": 6, "max": 10, "title": "Tourist 📷" },
+      { "min": 11, "max": 15, "title": "Expat 🍺" },
+      { "min": 16, "max": 20, "title": "Local Trainee 🛵" },
+      { "min": 21, "max": 25, "title": "Certified Local 🇹🇼" }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "I have chased a garbage truck at least once",
+      "weight": 1,
+      "trigger": "confetti"
+    },
+    {
+      "id": 2,
+      "text": "I own an EasyCard and keep it topped up",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "text": "I've eaten breakfast at 永和豆漿 (Yonghe Soy Milk)",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "text": "I know which MRT line is the blue one without looking",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "text": "I've been to a temple during Ghost Month",
+      "weight": 1,
+      "trigger": "confetti"
+    },
+    {
+      "id": 6,
+      "text": "I always carry an umbrella, even when it's sunny",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "text": "I've waited in line for more than 30 minutes at a night market",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "text": "I know what '加蛋' means and use it regularly",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "text": "I've ridden a YouBike in the rain",
+      "weight": 1
+    },
+    {
+      "id": 10,
+      "text": "I can order bubble tea with custom ice and sugar levels",
+      "weight": 1,
+      "trigger": "confetti"
+    },
+    {
+      "id": 11,
+      "text": "I've hiked Elephant Mountain at sunrise",
+      "weight": 1
+    },
+    {
+      "id": 12,
+      "text": "I've experienced a typhoon day (work/school cancelled)",
+      "weight": 1,
+      "trigger": "confetti"
+    },
+    {
+      "id": 13,
+      "text": "I recognize the 7-Eleven jingle",
+      "weight": 1
+    },
+    {
+      "id": 14,
+      "text": "I've paid my bills at a convenience store",
+      "weight": 1
+    },
+    {
+      "id": 15,
+      "text": "I prefer scooter to car for short distances",
+      "weight": 1
+    },
+    {
+      "id": 16,
+      "text": "I've been to Hot Spring season in Beitou",
+      "weight": 1
+    },
+    {
+      "id": 17,
+      "text": "I know the difference between 紅豆 and 綠豆",
+      "weight": 1
+    },
+    {
+      "id": 18,
+      "text": "I've eaten stinky tofu and actually liked it",
+      "weight": 1,
+      "trigger": "confetti"
+    },
+    {
+      "id": 19,
+      "text": "I've used LINE Pay or JKoPay",
+      "weight": 1
+    },
+    {
+      "id": 20,
+      "text": "I know why everyone wears a mask even before COVID",
+      "weight": 1
+    },
+    {
+      "id": 21,
+      "text": "I've celebrated Chinese New Year in Taiwan",
+      "weight": 1,
+      "trigger": "confetti"
+    },
+    {
+      "id": 22,
+      "text": "I've been to a KTV (karaoke) at least 3 times",
+      "weight": 1
+    },
+    {
+      "id": 23,
+      "text": "I know what '小確幸' means",
+      "weight": 1
+    },
+    {
+      "id": 24,
+      "text": "I've complained about Taipei's humidity",
+      "weight": 1
+    },
+    {
+      "id": 25,
+      "text": "I feel personally attacked by this quiz",
+      "weight": 1,
+      "trigger": "confetti"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "night_owl",
+      "title": "🦉 Night Market Pro",
+      "condition": {
+        "required_ids": [7, 18],
+        "mode": "all"
+      }
+    },
+    {
+      "id": "transit_master",
+      "title": "🚇 Transit Master",
+      "condition": {
+        "required_ids": [2, 4, 9],
+        "mode": "all"
+      }
+    },
+    {
+      "id": "local_foodie",
+      "title": "🍜 Local Foodie",
+      "condition": {
+        "required_ids": [3, 8, 10, 18],
+        "mode": "all"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 15, 23, 42;
+  --background-end-rgb: 15, 23, 42;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(59, 130, 246, 0.3);
+}
+
+/* Focus styles */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Neo-Brutalist button styles */
+@layer components {
+  .btn-brutal {
+    @apply px-6 py-3 font-bold rounded-xl transition-all duration-200;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  }
+
+  .btn-brutal:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 1);
+  }
+
+  .btn-brutal:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+  }
+
+  .card-brutal {
+    @apply rounded-xl border-2 border-gray-700;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #3b82f6, #10b981);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+}
